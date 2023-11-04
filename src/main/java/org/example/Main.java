@@ -3,7 +3,7 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         int[][] test = {{1,2,3},{2,4,6},{3,6,9}};
-        System.out.println(multiplicationTable(test));
+        System.out.println(multiplicationTable(3));
     }
     public static int [][] multiplicationTable(int n){
         int [][] result = new int[n][n];
